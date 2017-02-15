@@ -2,6 +2,9 @@ language: ruby
 rvm:
 - 2.2.0
 sudo: false
+branches:
+  only:
+    - gh-pages
 before_script:
   - git config --global user.name "pilarargudo"
   - git config --global user.email "pargudo@disid.com"

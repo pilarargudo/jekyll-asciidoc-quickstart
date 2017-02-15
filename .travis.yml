@@ -2,9 +2,11 @@ language: ruby
 rvm:
 - 2.2.0
 sudo: false
-before_script:
-  - git config --global user.email "pargudo@disid.com"
-  - git config --global user.name "Travis-CI"
+#before_script:
+#  - git config --global user.email "pargudo@disid.com"
+#  - git config --global user.name "Travis-CI"
+notifications:
+  email: false
 env:
   global:
     secure: ekHSQsbDhUNfUHWfU5ECW0Acq7Pw253eQ9WLNvj0pzQEofngbGFIlWkywX/5bSotdSb51H6gb04yN5Y2J4/8eBrSgr5d6Uc+ZF7Koimt+qZWTnuG6433f6sAznfKAuuWAaM2RFqpAo4wZ62n9UAFD8c+8Uk1teMWGCdiFzGax2tOLpTv9kcWwUrWutj2a7ENCrNiiTv7PFmmjq5nwWW+ceWUAlXYuXWe7+R16mRgIMsCgbt+wTj/5fYuYPr9dwIeZWn36MuVGNkK/FPlrewaqhcBOzIOu420L+CJW4sv3WgoVBqLFXBZdm10QEduJBF9NjIkgXtUhzLESmiw06LSH9ZiewYK1c0Z69sBiIBqQbYNK+Iip7IRHYTH4SImVEGFAyfODrSg8gaMizvj6NMACOBXFX3ZF4+jFafi6bSt0sns+QrVikpwaunQsSyo9/vsU++gYVss+UJJqy495aj1fpA1CyE19O1TZm5Iys2W3PB2I96LjvC4W2F2CVK3hHECraJa+n622SnrP6ejqydJR3ZhNsQAaXdubzeJxtrMjqZV8TARgjLTQkBL/iEtdW3o+Fi2lYEtZQQqUr4mCoi7MkTFS50SsSUuJUJirborY9jyAV3+jeoGsutG45uTpcwxw/r5Mru53W7lua9jovQHyTlRIpnJcd5datKayPFWpGA=
